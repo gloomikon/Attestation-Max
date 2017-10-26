@@ -5,7 +5,7 @@ const person = {
   age:50,
   eyeColor:'blue'
 };
-const objectParcerm = (inputArray) => {
+const objectParcer = (inputArray) => {
   let str = '';
   for (let property in inputArray)
   {
