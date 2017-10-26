@@ -5,16 +5,7 @@ const person = {
   age:50,
   eyeColor:'blue'
 };
-function objectParcer(inputArray)
-{
-  let str = '';
-  for (let property in inputArray)
-  {
-    str=str+property+'='+inputArray[property]+'; ';
-  }
-  return str;
-}
-const objectParcerL = (inputArray) => {
+const objectParcerm = (inputArray) => {
   let str = '';
   for (let property in inputArray)
   {
@@ -22,4 +13,3 @@ const objectParcerL = (inputArray) => {
   }
   return str;}
 console.log(objectParcer(person));
-console.log(objectParcerL(person));
