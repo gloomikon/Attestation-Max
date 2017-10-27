@@ -1,7 +1,7 @@
 'use strict';
 const Fib = n =>
 {
-	let previousN = 0;
+  let previousN = 0;
   let presentN = 1;
   for (let i=0;i<n;i++)
   {
