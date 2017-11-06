@@ -11,7 +11,7 @@ const Fib = n =>
   }
   return previousN;
 }
-for (let n=1;n<10;n++)
+for (let n=1;n<11;n++)
 {
-  console.log(Fib(n)); //1 1 2 3 5 8 13 21 34
+  console.log(Fib(n)); //1 1 2 3 5 8 13 21 34 55
 }
